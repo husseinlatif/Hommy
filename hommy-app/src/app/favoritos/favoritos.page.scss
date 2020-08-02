@@ -1,0 +1,49 @@
+header {
+   display: flex;
+   justify-content: space-around; 
+   align-items: center;
+   border-bottom: 0.15em solid rgba(95, 114, 133, 0.8);
+   margin: 2em auto 2em auto;
+}
+
+header img {
+    width: 25%;
+}
+
+header span {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
+
+img{
+    width: 25%;
+    display: inline-block;
+}
+
+.anuncio{
+    margin-bottom: 8em;
+
+}
+
+
+h2{
+    font-size: 1.1em;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    border-bottom: 0.15em solid rgba(95, 114, 133, 0.8);
+    border-top: 0.15em solid rgba(95, 114, 133, 0.8);
+}
+
+span {
+    font-size: 0.9em;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,80 @@
+ion-content {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E7E5FB;
+}
+
+a {
+    text-decoration: none;
+    width: auto;
+}
+
+
+.startbutton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto auto 3em auto;
+}
+
+.startbutton span {
+    font-size: 1.5em;
+    color:#E7E5FB;
+    border: 0.15em solid rgba(95, 114, 133, 0.5);
+    background-color:#35495e;
+    text-align:center;
+    width: 50%;
+}
+
+.features_images {
+    margin: 2em 1em 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
+    border-top:  0.15em solid rgba(95, 114, 133, 0.5);
+    
+}
+
+.features_images img {
+    width: 30%;
+    border-radius: 4em;
+    border: 0.2em solid rgb(0,0,0,0.5);
+}
+
+.features_images span {
+    
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    color: #35495e;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
+
+
+.footer {
+    width: 100%;
+    color: #35495e;
+    background-color: #35495e;
+    border-top: 0.25em solid rgba(95, 114, 133, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer span {
+    color: #E7E5FB;
+    width:50%;
+    text-align: center;
+    text-shadow: 0.06em 0.06em rgb(0,0,0,0.2);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+}
+
+.logotipo_footer {
+    display: inline-block;
+    width: 15%;
+}
