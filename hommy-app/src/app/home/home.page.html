@@ -7,23 +7,34 @@
 <ion-content>
 
 
+<!--REPUBLICAS LISTADAS NA HOME PELA INTEGRAÇÃO-->
+  <ion-slides>
+    <ion-slide *ngFor="let republic of allRepublics">
+      <ion-card><h1>{{republic.title}}</h1>
+        <h2>{{republic.rental_per_month}}</h2>
+        <h3>{{republic.number_bed}}</h3>
+        <h4>{{republic.number_bath}}</h4></ion-card>
+    </ion-slide>
+  </ion-slides>
+
+
   <!--REPÚBLICAS LISTADAS NA HOME UTILIZANDO COMPONENTES JUNTO COM *ngFor-->
-<app-republic-card *ngFor = "let republic of republics"
-[title]='republic.name'
-[price]='republic.price'
-[rooms]='republic.numOfAvailableRooms'
-[bathrooms]='republic.numOfBathrooms'>
-</app-republic-card>
+  <app-republic-card *ngFor = "let republic of republics"
+  [title]='republic.name'
+  [price]='republic.price'
+  [rooms]='republic.numOfAvailableRooms'
+  [bathrooms]='republic.numOfBathrooms'>
+  </app-republic-card>
 
 
 
-<!--REPÚBLICAS LISTADAS NA HOME UTILIZANDO *ngFor e ngOnInit-->
-<section *ngFor="let republic of republics">
-<h1>{{republic.name}}</h1>
-<h2>{{republic.price}}</h2>
-<h3>{{republic.numOfAvailableRooms}}</h3>
-<h4>{{republic.numOfBathrooms}}</h4>
-</section>
+  <!--REPÚBLICAS LISTADAS NA HOME UTILIZANDO *ngFor e ngOnInit-->
+  <section *ngFor="let republic of republics">
+    <h1>{{republic.name}}</h1>
+    <h2>{{republic.price}}</h2>
+    <h3>{{republic.numOfAvailableRooms}}</h3>
+    <h4>{{republic.numOfBathrooms}}</h4>
+  </section>
 
 
 </ion-content>
